@@ -1,0 +1,10 @@
+^C:\USERS\СТЕПАН\DESKTOP\HILLEL\LESSON-1\HOMETASK\BUILD\CMAKEFILES\D2F99E4F3FAFA1943C57151E58D3C1A8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask -BC:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/MathHome.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

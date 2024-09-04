@@ -1,0 +1,10 @@
+^C:\USERS\СТЕПАН\DESKTOP\HILLEL\LESSON-1\HOMETASK\LIBMATH\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask -BC:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build --check-stamp-file C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/libmath/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

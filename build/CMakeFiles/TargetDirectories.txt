@@ -1,0 +1,4 @@
+C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/libmath/CMakeFiles/math_funcs.dir
+C:/Users/Степан/Desktop/Hillel/Lesson-1/Hometask/build/src/CMakeFiles/main_app.dir
